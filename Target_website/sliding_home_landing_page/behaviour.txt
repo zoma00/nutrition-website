@@ -1,0 +1,2 @@
+** slider start from 1 to 3
+** The words come up from down to upward.
