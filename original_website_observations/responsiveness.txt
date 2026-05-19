@@ -1,0 +1,5 @@
+** Page is not responsive for gride and vertical view.
+** page not responsive for resizing from laptop monitor to external 
+big monitor.
+
+** Side arrows for control sliding home page menu disappear on vertical mobile view.

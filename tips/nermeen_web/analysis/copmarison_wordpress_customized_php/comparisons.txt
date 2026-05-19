@@ -1,0 +1,120 @@
+i need the cost calculations for WordPress and plugins without my personal dev cost.
+** and the calculations for the customised PHP Laravel blade without my personal cost to compare
+
+Here's the clean side-by-side comparison:
+
+---
+
+## Option A — WordPress Full Cost (Without Your Dev Fee)
+
+### One-Time / Annual Licenses
+
+| Item | Paid By | USD | EGP (~50) |
+|---|---|---|---|
+| Astra Pro Theme | You | $59/yr | 2,950 EGP |
+| Elementor Pro | You | $59/yr | 2,950 EGP |
+| WPML Multilingual CMS | You | $99/yr | 4,950 EGP |
+| Amelia Booking (Basic) | You | $79/yr | 3,950 EGP |
+| Rank Math Pro (SEO) | You | $59/yr | 2,950 EGP |
+| Wordfence Premium (Security) | You | $119/yr | 5,950 EGP |
+| UpdraftPlus Premium (Backup) | You | $70/yr | 3,500 EGP |
+| WooCommerce | — | Free | 0 |
+| Contact Form 7 | — | Free | 0 |
+| LiteSpeed Cache | — | Free | 0 |
+
+**Plugin + Theme Subtotal: $544/yr → ~28.668 EGP/yr**
+
+---
+
+### Hosting & Infrastructure
+
+| Item | Paid By | USD | EGP |
+|---|---|---|---|
+| Managed WordPress Hosting (Hostinger Business) | Client | $120/yr | 6,000 EGP |
+| Domain (.com, Namecheap) | Client | $15/yr | 750 EGP |
+| Cloudflare Free | — | Free | 0 |
+| Business Email (Zoho free) | — | Free | 0 |
+
+**Infrastructure Subtotal: ~6,750 EGP/yr**
+
+---
+
+### WordPress Total Cost Summary
+
+| Category | Who Pays | Year 1 | Year 2+ |
+|---|---|---|---|
+| Plugins + Theme | You (bundle in quote) | 27,200 EGP | 27,200 EGP |
+| Hosting + Domain | Client directly | 6,750 EGP | 6,750 EGP |
+| **Total** | | **~33,950 EGP** | **~33,950 EGP** |
+
+---
+---
+
+## Option B — Laravel + Blade Custom Build (Without Your Dev Fee)
+
+### One-Time / Annual Licenses
+
+| Item | Paid By | USD | EGP |
+|---|---|---|---|
+| Laravel Framework | — | Free | 0 |
+| Blade Templating | — | Free | 0 |
+| MySQL / PostgreSQL | — | Free | 0 |
+| Nginx + PHP-FPM | — | Free | 0 |
+| Let's Encrypt SSL (Certbot) | — | Free | 0 |
+| FullCalendar.js (booking UI) | — | Free | 0 |
+| Brevo SMTP (300 emails/day) | — | Free | 0 |
+| Laravel Filament (admin panel) | — | Free | 0 |
+| Spatie Laravel-translatable (AR/EN) | — | Free | 0 |
+| Composer / NPM packages | — | Free | 0 |
+
+**License Subtotal: 0 EGP**
+
+---
+
+### Hosting & Infrastructure
+
+| Item | Paid By | USD | EGP |
+|---|---|---|---|
+| Hetzner VPS CX22 (2vCPU/4GB) | Client | $48/yr | 2,400 EGP |
+| Domain (.com, Namecheap) | Client | $15/yr | 750 EGP |
+| SSL (Let's Encrypt) | — | Free | 0 |
+| Business Email (Zoho free) | — | Free | 0 |
+| VPS Snapshot Backup (Hetzner) | Client | $12/yr | 600 EGP |
+
+**Infrastructure Subtotal: ~3,750 EGP/yr**
+
+---
+
+### Laravel Total Cost Summary
+
+| Category | Who Pays | Year 1 | Year 2+ |
+|---|---|---|---|
+| All Licenses | — | **0 EGP** | **0 EGP** |
+| Hosting + Domain + Backup | Client directly | 3,750 EGP | 3,750 EGP |
+| **Total** | | **~3,750 EGP** | **~3,750 EGP** |
+
+---
+---
+
+## Direct Comparison (Excluding Your Dev Fee)
+
+| | WordPress | Laravel + Blade |
+|---|---|---|
+| License costs | 27,200 EGP/yr | **0 EGP** |
+| Hosting + Domain | 6,750 EGP/yr | 3,750 EGP/yr |
+| **Total Year 1** | **~33,950 EGP** | **~3,750 EGP** |
+| **Total Year 2+** | **~33,950 EGP** | **~3,750 EGP** |
+| **Saving per year** | — | **~30,200 EGP cheaper** |
+| **Over 3 years** | ~101,850 EGP | ~11,250 EGP |
+| Client owns everything | No (tied to licenses) | **Yes** |
+| You need new skills | Yes (WordPress) | **No (your stack)** |
+| Build time | Faster | Slower |
+| Client can self-edit content | Yes | Only via admin panel you build |
+
+---
+
+## The One-Line Summary
+
+> WordPress costs the client **~30,000 EGP more per year** in licenses alone, for a website that you'd be learning from scratch anyway. Laravel Blade uses your existing skills and costs nearly nothing to run.
+
+**For this specific client and your specific background, Laravel + Blade is the smarter choice.**

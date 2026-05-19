@@ -1,0 +1,21 @@
+The response time is showing as `0` because the `curl` command with the `-I` option only fetches the HTTP headers of the response, not the full content. This operation is typically very fast, and the time spent downloading the headers is negligible, so it is rounded down to `0` in the output.
+
+If you want to measure the actual response time, including the time taken to establish the connection and fetch the headers, you can use the `-w` (write-out) option with `curl` to display detailed timing information. For example:
+
+```bash
+curl -I -w "@curl-format.txt" -o /dev/null -s "https://drnermeenbedair.com/"
+```
+
+You can create a `curl-format.txt` file with the following content to display detailed timing:
+
+```
+time_namelookup:  %{time_namelookup}\n
+time_connect:  %{time_connect}\n
+time_appconnect:  %{time_appconnect}\n
+time_pretransfer:  %{time_pretransfer}\n
+time_redirect:  %{time_redirect}\n
+time_starttransfer:  %{time_starttransfer}\n
+time_total:  %{time_total}\n
+```
+
+This will give you a breakdown of the time spent in each phase of the request. Let me know if you'd like me to set this up for you!

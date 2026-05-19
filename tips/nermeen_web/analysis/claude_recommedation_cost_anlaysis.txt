@@ -1,0 +1,65 @@
+Good data. Here's an honest, well-grounded answer:
+
+---
+
+## Is 120,000 EGP reasonable for this project in Egypt?
+
+**Short answer: Yes — it's reasonable and defensible, but it sits at the upper end of what most Egyptian clients expect to pay a solo developer (not an agency). Here's the full picture:**
+
+---
+
+### What the market actually shows in 2026
+
+A mid-tier professional website in Egypt — covering custom UX/UI, multi-language (AR/EN), blog, CRM/WhatsApp integration, and Core Web Vitals optimization — is priced in the **110,000–300,000 EGP range** by development firms.
+
+Reputable agencies price a multi-page, bilingual, advanced-SEO site starting around **25,000 EGP** at the entry level, 
+                                                                            ────────────────────────
+
+going up to **200,000 EGP** for full e-commerce builds.
+
+Custom websites with bilingual support, unique layouts, and CRM integrations typically fall in the **110,000–350,000 EGP range** when delivered by agencies with proper UX investment.
+
+So your quote of **120,000 EGP** sits right in the middle of what professional firms charge — which is actually a strong position.
+
+---
+
+### The key variable: are you a freelancer or a small studio?
+
+Freelancers in Egypt typically charge **30–50% less than agencies** (roughly 200–500 EGP/hour), while agencies run 400–1,000 EGP/hour and provide dedicated teams, project management, and QA.
+
+This means:
+
+| Who you are | Realistic range for this scope |
+|---|---|
+| Solo freelancer | 50,000 – 90,000 EGP |
+| Small studio / 2–3 person team | 90,000 – 140,000 EGP |
+| Established agency | 120,000 – 250,000 EGP |
+
+If you're presenting yourself as a **solo developer**, 120,000 EGP may face pushback — not because it's wrong, but because Egyptian clients mentally anchor freelancers to lower rates. If you position yourself as a **small professional studio**, the same number is completely normal.
+
+---
+
+### The client's perspective (Egyptian doctor)
+
+This client is a medical professional with an existing website, meaning she understands digital investment. However, Egyptian clients in general will typically:
+
+- Compare your quote to cheaper alternatives they'll find on Facebook groups (5,000–30,000 EGP)
+- Not always understand the difference in quality until they've been burned
+
+Anything under 15,000 EGP is almost certainly a generic template with minimal customization — it will look like dozens of other sites, load slowly, and won't be built to convert visitors into clients. You can use this framing with confidence when justifying your rate.
+
+---
+
+### Recommendation
+
+Your proposed structure is sound. A few practical adjustments for the Egyptian market:
+
+**Build fee:** 100,000–120,000 EGP is the sweet spot — 120,000 is fair if you can clearly show deliverables. Consider offering a slight flexibility (e.g., "starting from 95,000 EGP" with scope-based additions) to open the conversation without devaluing the work.
+
+**Maintenance:** 3,000–5,000 EGP/month is more aligned with what Egyptian clients accept long-term. The average maintenance cost in Egypt runs about 1,000–3,000 EGP/month for standard upkeep, so 4,000–5,000 EGP/month signals premium service — justified if you're proactively doing SEO, performance monitoring, and content updates.
+
+**Payment split:** Your 40/40/20 structure is standard and professional — keep it.
+
+**Bottom line:** Your quote is not overpriced. It's upper-market for a freelancer, mid-market for a studio. The key is how you present yourself and how clearly you itemize the value. A well-structured proposal in Arabic will convert far better than a number alone.
+
+Want me to draft that Arabic quotation with full scope, exclusions, and payment terms?

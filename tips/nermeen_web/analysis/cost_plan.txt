@@ -1,0 +1,58 @@
+
+Cost Model (USD)
+========================
+
+One-Time Build Cost Ranges
+1) Lean MVP (single language, booking + contact, no e-commerce complexity)
+- Design + setup + launch: 1,200 to 2,500
+
+2) Professional Clinic (closest to benchmark: multilingual + booking + WooCommerce)
+- Design + setup + content migration + launch: 3,000 to 7,000
+
+3) Premium Growth Build (custom UX, advanced automations, stronger SEO foundation)
+- Full implementation: 8,000 to 15,000+
+
+
+Recurring Costs (Monthly / Annual)
+- Hosting (managed WordPress/LiteSpeed): 20-100 per month
+- Cloudflare: 0 (free) to 20 per month (Pro)
+- Domain: 10-20 per year
+- WPML: ~99 per year (if selected)
+- Premium builder/theme licenses: 60-120 per year
+- Security/backup premium plugins: 0-200 per year
+- Maintenance retainer (updates, backups, fixes): 150-600 per month
+
+
+
+
+Expected Baseline Annual Running Cost
+===================================
+- Lean operations: ~500-1,500 per year (without maintenance retainer)
+- Professional operations: ~1,500-4,000 per year (including paid tools and better hosting)
+
+Team Plan
+- 1 WordPress developer
+- 1 UI/UX designer (part-time during first 2-3 weeks)
+- 1 QA/content support role (part-time before launch)
+
+Budget Decision Guide
+============================
+- If you need fast launch and low cost: choose Lean MVP.
+- If you need close resemblance + bilingual + booking + sales: choose Professional Clinic.######################
+- If growth and conversion optimization are strategic: choose Premium Growth Build.
+
+Procurement Checklist Before Starting
+- Domain and hosting account ownership.
+- Brand assets and approved content (Arabic/English if bilingual).
+- Payment gateway merchant account.
+- WhatsApp business number and email SMTP provider.
+- Legal pages (privacy policy, cookies, terms, consent text).
+
+Cost Calculation Formula
+- Total Year-1 Cost = One-time Build + (Monthly Recurring x 12) + Annual Licenses
+
+Example (Professional Clinic Midpoint)
+- Build: 5,000
+- Recurring: 180/month x 12 = 2,160
+- Annual licenses/tools: 300
+- Estimated Year-1 Total: 7,460

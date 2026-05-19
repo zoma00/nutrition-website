@@ -1,0 +1,18 @@
+3. Blog module: +2,500 EGP
+** What is blog module?
+
+`Blog module` means adding a full Articles/News section to the website.
+
+For the `+2,500 EGP` add-on, it usually includes:
+1. Blog listing page (all articles).
+2. Single article page design.
+3. Admin ability to add/edit/delete posts.
+4. Categories (for example: Weight Loss, PCOS, Diet Plans).
+5. Basic SEO fields per article (title, meta description, URL slug).
+
+Usually not included in that price:
+1. Writing article content.
+2. Ongoing monthly publishing.
+3. Manual translation of every post (unless agreed).
+
+For a nutrition doctor, it is useful for SEO and trust, but if budget is tight, you can launch without it and add it later.

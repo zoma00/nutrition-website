@@ -1,0 +1,17 @@
+HTTP/2 200 
+date: Sun, 17 May 2026 09:49:48 GMT
+content-type: text/html; charset=UTF-8
+set-cookie: PHPSESSID=3a95569582a4038b57cdb96954bf1e30; path=/; secure
+expires: Thu, 19 Nov 1981 08:52:00 GMT
+cache-control: no-store, no-cache, must-revalidate
+pragma: no-cache
+x-frame-options: SAMEORIGIN
+link: <https://drnermeenbedair.com/>; rel=shortlink
+x-turbo-charged-by: LiteSpeed
+cf-cache-status: DYNAMIC
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=iK72v9vk5UWBxq6VJRzT15pm44bR4T%2B6UGHkV3%2F7yfMIglE8z%2BsWz8PTyFkgw9Q5phPUwNjqKPn%2FemXaw9AG3EDmvVGASZKpu%2FXcKY1ZNnLiqsKLfFHLMiZmCPyj%2FYmC67%2BH8OwO"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+server: cloudflare
+cf-ray: 9fd1b6c91cb5ed46-MXP
+alt-svc: h3=":443"; ma=86400
+

@@ -1,0 +1,74 @@
+CURL recon command set for: https://drnermeenbedair.com/
+
+1) Basic fetch (full page to terminal)
+curl "https://drnermeenbedair.com/"
+
+2) Response headers only (used in analysis)
+curl -I --max-time 100 "https://drnermeenbedair.com/" > curl.txt
+
+3) Response timing breakdown
+Create curl-format.txt with this content first:
+time_namelookup:  %{time_namelookup}\n
+time_connect:     %{time_connect}\n
+time_appconnect:  %{time_appconnect}\n
+time_pretransfer: %{time_pretransfer}\n
+time_redirect:    %{time_redirect}\n
+time_starttransfer:%{time_starttransfer}\n
+time_total:       %{time_total}\n
+
+Then run:
+curl -I -w "@curl-format.txt" -o /dev/null -s "https://drnermeenbedair.com/"
+
+4) First 100 lines from homepage HTML (large page safe preview)
+curl -sL "https://drnermeenbedair.com/" | head -n 100
+
+5) First 140 lines from homepage HTML (used in passive recon)
+curl -sL "https://drnermeenbedair.com/" | head -n 140
+
+6) Fingerprint CMS/plugins/features from homepage markup
+curl -sL "https://drnermeenbedair.com/" | rg -i "wp-content|wp-includes|elementor|woocommerce|contact form|book|appointment|login|oauth|google|facebook|api|graphql|rest|wp-json" | head -n 120
+
+7) Check WordPress REST endpoint headers
+curl -sI "https://drnermeenbedair.com/wp-json/"
+
+8) Check robots.txt and preview first lines
+curl -sL "https://drnermeenbedair.com/robots.txt" | head -n 80
+
+9) Show final redirect chain + headers
+curl -sIL "https://drnermeenbedair.com/"
+
+10) Security and platform header grep
+curl -sI "https://drnermeenbedair.com/" | rg -i "^server:|^x-|^cf-|^content-type:|^set-cookie:|^link:|strict-transport-security|content-security-policy"
+
+11) Check common WordPress-related endpoints (header-only)
+curl -sI "https://drnermeenbedair.com/wp-login.php"
+curl -sI "https://drnermeenbedair.com/xmlrpc.php"
+curl -sI "https://drnermeenbedair.com/wp-sitemap.xml"
+curl -sI "https://drnermeenbedair.com/sitemap_index.xml"
+
+12) Quick auth/login hint scan from HTML
+curl -sL "https://drnermeenbedair.com/" | rg -i "oauth|openid|auth|login|signin|google|facebook|apple|token|jwt|wp-login"
+
+13) Save artifacts locally for documentation
+curl -sI "https://drnermeenbedair.com/" > curl_headers.txt
+curl -sL "https://drnermeenbedair.com/" > homepage.html
+curl -sL "https://drnermeenbedair.com/robots.txt" > robots.txt
+
+Notes
+- These commands are passive/light recon and do not do brute force or active exploitation.
+- If rg is not installed, replace rg -i with grep -Ei.
+
+Your note is correct: replace rg -i with grep -Ei
+grep works fine, but rg is usually faster and easier for large projects
+
+Bash:
+========
+sudo apt  install ripgrep
+hazem-elbatawy@hazem-elbatawy-Vostro-15-3510:~/Downloads/nutiration_website$ rg --version
+ripgrep 14.1.0
+
+features:-simd-accel,+pcre2
+simd(compile):+SSE2,-SSSE3,-AVX2
+simd(runtime):+SSE2,+SSSE3,+AVX2
+
+PCRE2 10.42 is available (JIT is available)

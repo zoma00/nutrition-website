@@ -1,0 +1,94 @@
+Ultra-cheap hard-cap plan (below 20,000 EGP)
+Project type: nutrition doctor website
+Goal: keep Year-1 total cost under 20,000 EGP
+
+====================================================================
+1) Final budget (hard cap)
+====================================================================
+1. Developer fee (fixed): 16,000 EGP
+2. VPS + domain + SSL Year-1: 3,200 EGP (approx)
+3. Year-1 total: 19,200 EGP
+
+Notes:
+- SSL is free (Let's Encrypt).
+- This price is possible only with a very strict scope.
+
+====================================================================
+2) Strict included scope (only)
+====================================================================
+1. Single language only (Arabic only).
+2. Up to 5 pages:
+	- Home
+	- About doctor
+	- Services
+	- Appointment request
+	- Contact
+3. Appointment request form (not real-time calendar booking).
+4. Admin panel to view and manage incoming appointment requests.
+5. WhatsApp click-to-chat button.
+6. Google Maps embed.
+7. Basic on-page SEO (title, description, sitemap).
+8. Basic security hardening + SSL.
+9. One responsive template style (no custom design system).
+
+====================================================================
+3) Excluded to keep cost under 20,000
+====================================================================
+1. No bilingual support (no English version).
+2. No advanced booking engine (slots, conflict prevention automation, doctor calendars).
+3. No payment gateway and no WooCommerce.
+4. No custom dashboard analytics.
+5. No SMS integrations.
+6. No advanced speed optimization package.
+7. No unlimited revisions.
+
+====================================================================
+4) Delivery timeline
+====================================================================
+Total: 3 to 4 weeks
+
+Week 1:
+- Server setup, SSL, project scaffold, base pages
+
+Week 2:
+- Appointment form, admin management, contact flow
+
+Week 3:
+- Content entry, responsive fixes, testing
+
+Week 4 (buffer if needed):
+- Final QA and launch
+
+====================================================================
+5) Revision policy
+====================================================================
+1. Included: 1 revision round after first full demo.
+2. Additional revisions: 1,000 EGP per round.
+
+====================================================================
+6) Payment milestones
+====================================================================
+1. 50% upfront: 8,000 EGP
+2. 30% on staging demo: 4,800 EGP
+3. 20% on go-live: 3,200 EGP
+
+====================================================================
+7) Optional add-ons (if client expands later)
+====================================================================
+1. English language version: +4,000 EGP
+2. Real booking calendar with slot logic: +5,000 EGP
+3. Online payment integration: +4,500 EGP
+4. Blog module with categories: +2,500 EGP
+
+====================================================================
+8) Recommended monthly maintenance
+====================================================================
+1. Basic maintenance: 1,000 EGP/month
+	- security updates
+	- backup checks
+	- minor fixes
+
+Final decision:
+If the client insists on staying below 20,000 EGP, use this package as-is with no extra scope.
+
+

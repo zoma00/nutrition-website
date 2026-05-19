@@ -1,0 +1,2 @@
+PS /home/hazem-elbatawy/Downloads/nutiration_website> whois drnermeenbedair.com > whois.txt                              
+PS /home/hazem-elbatawy/Downloads/nutiration_website> nmap -sV drnermeenbedair.com > nmap.txt

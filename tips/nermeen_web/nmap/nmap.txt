@@ -1,0 +1,33 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-17 13:01 EEST
+Nmap scan report for drnermeenbedair.com (172.67.162.249)
+Host is up (0.14s latency).
+Other addresses for drnermeenbedair.com (not scanned): 104.21.66.180 2606:4700:3032::6815:42b4 2606:4700:3031::ac43:a2f9
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE  VERSION
+25/tcp   open  smtp?
+80/tcp   open  http     Cloudflare http proxy
+443/tcp  open  ssl/http Cloudflare http proxy
+8080/tcp open  http     Cloudflare http proxy
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port25-TCP:V=7.94SVN%I=7%D=5/17%Time=6A099223%P=x86_64-pc-linux-gnu%r(H
+SF:ello,1F,"452\x20syntax\x20error\x20\(connecting\)\r\n")%r(Help,1F,"452\
+SF:x20syntax\x20error\x20\(connecting\)\r\n")%r(GenericLines,3E,"452\x20sy
+SF:ntax\x20error\x20\(connecting\)\r\n452\x20syntax\x20error\x20\(connecti
+SF:ng\)\r\n")%r(GetRequest,3E,"452\x20syntax\x20error\x20\(connecting\)\r\
+SF:n452\x20syntax\x20error\x20\(connecting\)\r\n")%r(HTTPOptions,3E,"452\x
+SF:20syntax\x20error\x20\(connecting\)\r\n452\x20syntax\x20error\x20\(conn
+SF:ecting\)\r\n")%r(RTSPRequest,3E,"452\x20syntax\x20error\x20\(connecting
+SF:\)\r\n452\x20syntax\x20error\x20\(connecting\)\r\n")%r(SSLSessionReq,1F
+SF:,"452\x20syntax\x20error\x20\(connecting\)\r\n")%r(TerminalServerCookie
+SF:,1F,"452\x20syntax\x20error\x20\(connecting\)\r\n")%r(TLSSessionReq,1F,
+SF:"452\x20syntax\x20error\x20\(connecting\)\r\n")%r(Kerberos,1F,"452\x20s
+SF:yntax\x20error\x20\(connecting\)\r\n")%r(FourOhFourRequest,3E,"452\x20s
+SF:yntax\x20error\x20\(connecting\)\r\n452\x20syntax\x20error\x20\(connect
+SF:ing\)\r\n")%r(LPDString,1F,"452\x20syntax\x20error\x20\(connecting\)\r\
+SF:n")%r(LDAPSearchReq,3E,"452\x20syntax\x20error\x20\(connecting\)\r\n452
+SF:\x20syntax\x20error\x20\(connecting\)\r\n")%r(SIPOptions,53,"452\x20syn
+SF:tax\x20error\x20\(connecting\)\r\n452\x20syntax\x20error\x20\(connectin
+SF:g\)\r\n421\x20too\x20many\x20errors\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 213.20 seconds

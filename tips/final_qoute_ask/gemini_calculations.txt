@@ -1,0 +1,34 @@
+Your calculations as a developer looking at this plan should focus on maximizing profitability, managing timeline risk, and ensuring you do not lock yourself into unpaid work. Since your infrastructure costs are practically zero (~2,900 EGP/year paid directly by the client), the remaining financial variable is your time.
+Here is how you should evaluate and structure your final calculations before presenting the proposal:
+## 1. The Value-to-Cost Margin (The "Why")
+
+* WordPress Route: High software costs (~30,000 EGP/year) leave you very little room to charge a high development fee without shocking the client's budget.
+* Your Custom Route: Infrastructure costs are microscopic (~2,900 EGP/year). This allows you to shift the client's budget entirely into your pocket for labor, while still saving the client money overall.
+
+## 2. Factoring the "Egypt Market Risk" Buffer
+Clients in Egypt frequently request scope changes mid-project (e.g., "Can we add an extra page for reviews?" or "Can the doctor change the calendar layout?").
+
+* The Math: If you estimate 200 hours, expect it to take 240 hours due to feedback loops.
+* The Protection: At a 35,000 EGP quote, if the project stretches to 240 hours, your hourly rate drops to ~145 EGP/hr. If you drop your quote to 25,000 EGP and it takes 240 hours, you slip to ~104 EGP/hr—which undercuts your intermediate skill level. Keep the quote at 35,000 EGP.
+
+## 3. The Deployment & Handover Calculation
+Do not include the VPS setup under your "free infrastructure" time. Setting up Nginx, PostgreSQL, Gunicorn, and Certbot on an unmanaged Hetzner Linux box requires intermediate DevOps knowledge.
+
+* Deduct 15% of your total fee mentally as your "DevOps setup charge."
+* Ensure the client enters their own credit card on Namecheap and Hetzner. Never host a client's site on your own personal billing accounts.
+
+## 4. Cash Flow Milestones
+Egyptian business transactions rely heavily on upfront commitments to ensure project seriousness.
+
+* 50% Upfront (17,500 EGP): This covers your initial 4–6 weeks of heavy backend architecture and API development. It guarantees you are paid for your base logic even if the client terminates early.
+* 30% on Staging (10,500 EGP): Paid when the React frontend is connected to Django on a test URL, showing a functional calendar.
+* 20% on Launch (7,000 EGP): Paid the day the site points to the live domain with SSL active.
+
+## 5. Retainer Calculation (The Real Profit)
+The development fee pays for your time, but the maintenance retainer builds your business.
+
+* Charging 1,500 EGP/month requires very little effort once a Django/React stack is stable.
+* Over 12 months, that is 18,000 EGP of recurring income for keeping an eye on a VPS snapshot and running basic package updates.
+
+How do these financial milestones align with your expectations, or would you like to adjust the project timeline to change the final numbers?
+

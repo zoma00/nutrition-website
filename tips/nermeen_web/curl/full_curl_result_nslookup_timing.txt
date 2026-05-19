@@ -1,0 +1,8 @@
+hazem-elbatawy@hazem-elbatawy-Vostro-15-3510:~/Downloads/nutiration_website$ curl -I -w "@curl-format.txt" -o /dev/null -s "https://drnermeenbedair.com/"
+time_namelookup:  0.094405
+time_connect:  0.183118
+time_appconnect:  0.300241
+time_pretransfer:  0.300450
+time_redirect:  0.000000
+time_starttransfer:  2.904425
+time_total:  2.904488

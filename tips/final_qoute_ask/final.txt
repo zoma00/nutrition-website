@@ -1,0 +1,80 @@
+No — and this is a very important mindset to fix early.
+
+---
+
+## The Logic Error Here
+
+The 30,000 EGP saving **goes to the client, not away from you.**
+
+Think of it this way:
+
+| | WordPress Dev | You (Laravel) |
+|---|---|---|
+| Client pays for build | 65,000 EGP | 35,000 EGP |
+| Client pays for licenses/yr | 27,200 EGP | 0 EGP |
+| Client pays hosting/yr | 6,750 EGP | 3,750 EGP |
+| **Client Year 1 total** | **~98,950 EGP** | **~38,750 EGP** |
+
+The client saves ~60,000 EGP in Year 1 by choosing you over a WordPress agency. **That saving is already built into your lower quote of 35,000 EGP.**
+
+---
+
+## Why 15,000 EGP is Wrong
+
+| Problem | Reality |
+|---|---|
+| Your hours are the same | 180–220 hours of real work regardless |
+| Your skill has value | You know Django/Laravel/React — that's not free |
+| Low price = low trust | Egyptian clients associate cheap with low quality, especially doctors |
+| No room for error | One unexpected bug eats your entire margin |
+| Sets a bad precedent | Your next client will expect the same or lower |
+| You burn out | 200 hours of work for 15,000 EGP = **75 EGP/hr** — below junior rate |
+
+---
+
+## What 15,000 EGP Actually Means for You
+
+| | |
+|---|---|
+| Estimated hours | 220 hrs |
+| Your rate | **68 EGP/hr** |
+| Monthly equivalent (full time) | **~10,000 EGP/month** |
+| Egypt junior developer salary | 8,000–15,000 EGP/month |
+
+**You would be paying yourself less than a junior salary for senior-complexity work.**
+
+---
+
+## The Right Way to Think About Your Price
+
+Your price is based on:
+
+1. **Your time** — 220 hours of skilled work
+2. **Your responsibility** — you own the deployment, bugs, security, launch
+3. **Your value to the client** — she gets a professional booking website
+4. **Market rate** — not on how much you saved her in licenses
+
+The license saving is your **sales argument**, not your **pricing basis.**
+
+---
+
+## How to Use the Saving in Your Sales Pitch
+
+Tell the client exactly this:
+
+> "A WordPress agency would charge you 65,000 EGP to build, plus 27,000 EGP every year in plugin licenses. I'm building you a custom system for 35,000 EGP with zero annual license fees — you save over 60,000 EGP in the first year alone and own everything."
+
+That makes 35,000 EGP sound like **the deal of the century** — because it genuinely is.
+
+---
+
+## Bottom Line
+
+| | |
+|---|---|
+| Minimum you should quote | **30,000 EGP** |
+| Recommended quote | **35,000 EGP** |
+| What to never go below | **25,000 EGP** |
+| What 15,000 EGP signals to the client | That your work isn't worth much |
+
+**You are not cheaper because your licenses are free. You are better value because the client pays less overall while getting a custom product built by a real developer.**

@@ -1,0 +1,67 @@
+An intermediate (mid-level) Full Stack Developer in [Egypt](https://www.google.com/search?kgmid=/m/02k54) earns an estimated median total pay of EGP 15,000 to EGP 25,000 per month according to [Glassdoor local salary metrics](https://www.glassdoor.com/Salaries/cairo-egypt-full-stack-developer-salary-SRCH_IL.0,11_IM1175_KO12,32.htm), with top-tier local tech companies and multinationals scaling much higher. [1, 2] 
+## Egypt Salary Breakdown (Monthly Rates)
+Because the Egyptian tech market experiences high fluctuation due to currency adjustments, base salaries are best analyzed by company type and seniority tier on Glassdoor: [2] 
+
+* Overall Mid-Level Range: EGP 12,000 – EGP 33,000 per month
+* Base Pay Average: EGP 14,000 per month
+* Additional Pay Range: EGP 1,000 – EGP 7,000 per month (bonuses, project-based incentives) [2, 3, 4] 
+
+## Mid-Level Software Engineer Variations by Company
+While the baseline average sits in the mid-tens of thousands, specific company data reported on [Glassdoor for Mid-Level roles in Cairo](https://www.glassdoor.com/Salaries/cairo-egypt-mid-software-engineer-salary-SRCH_IL.0,11_IM1175_KO12,33.htm) reveals a stark difference depending on the employer's funding:
+
+* Jumia: EGP 43,000 – EGP 46,000 per month
+* Geidea: EGP 31,000 – EGP 34,000 per month
+* FlairsTech: EGP 15,000 – EGP 43,000 per month
+* PayMob: EGP 22,000 – EGP 24,000 per month
+* Fixed Solutions: EGP 17,000 – EGP 25,000 per month [1, 2] 
+
+## Crucial Market Dynamics in Egypt
+
+* The Remote/USD Premium: There is a heavy disparity between localized EGP salaries and remote work. Intermediate developers working remotely from Egypt for international firms earn a median annual salary of $21,950 USD (approx. EGP 80,000+ per month depending on parallel market rates).
+* The "Senior" Jump: Once a developer bridges from intermediate to senior (roughly 5+ years of experience), salaries routinely jump past EGP 45,000–EGP 70,000 per month in the local market. [5, 6] 
+
+If you are evaluating an offer, let me know:
+
+* Is the company a local agency, a regional startup, or an international outsourcing firm?
+* Is the salary pegged to a foreign currency (USD/EUR) or purely paid in local EGP?
+* What is your primary stack (e.g., Node.js/React vs. .NET)?
+
+I can help you benchmark whether a specific offer aligns with current market standards.
+
+[1] [https://www.glassdoor.com](https://www.glassdoor.com/Salaries/cairo-egypt-full-stack-developer-salary-SRCH_IL.0,11_IM1175_KO12,32.htm)
+[2] [https://www.glassdoor.com](https://www.glassdoor.com/Salaries/cairo-egypt-mid-software-engineer-salary-SRCH_IL.0,11_IM1175_KO12,33.htm)
+[3] [https://www.glassdoor.com](https://www.glassdoor.com/Salaries/cairo-egypt-full-stack-developer-salary-SRCH_IL.0,11_IM1175_KO12,32.htm)
+[4] [https://www.salaryexpert.com](https://www.salaryexpert.com/salary/job/developer-full-stack/egypt/cairo)
+[5] [https://www.glassdoor.com](https://www.glassdoor.com/Salaries/cairo-egypt-senior-full-stack-developer-salary-SRCH_IL.0,11_IM1175_KO12,39.htm)
+[6] [https://plane.com](https://plane.com/salaries/fullstack-developer/egypt)
+
+
+
+
+
+
+** What is the expected cost that  i should take from the client for this website as a developer in Egypt and the client is Egyptian Nutirition Doctor
+
+For this exact scope (WordPress, Arabic/English, booking, WooCommerce-ready, SEO setup, Cloudflare, launch), a realistic Egypt market quote is:
+
+1. Recommended client quote (build only): **100,000 to 140,000 EGP**
+2. Minimum safe floor (do not go below unless scope is reduced): **80,000 to 90,000 EGP**
+3. If you include premium custom design + stronger automation: **150,000 to 220,000 EGP**
+
+What I suggest you send this client:
+1. **Package price:** **120,000 EGP** one-time
+2. **Maintenance:** **4,000 to 6,000 EGP/month** (updates, backups, fixes, monitoring)
+3. **Infra/licenses paid by client directly:** about **20,000 to 45,000 EGP/year** (hosting, domain, paid plugins, email services)
+
+Simple commercial structure:
+1. 40% upfront
+2. 40% after staging approval
+3. 20% on go-live
+
+So your **Year-1 total for client** will usually be around:
+$$
+\text{Year 1} \approx \text{Build} + \text{Maintenance} + \text{Infra}
+$$
+Typical range: **170,000 to 250,000 EGP** depending support level and paid tools.
+
+If you want, I can draft a ready-to-send quotation text in Arabic (formal) with inclusions/exclusions and payment terms.

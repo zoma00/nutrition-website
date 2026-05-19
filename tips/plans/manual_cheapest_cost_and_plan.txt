@@ -1,0 +1,104 @@
+Cheapest Manual Plan (Egypt 2026)
+Project target: Nutrition doctor website with appointment scheduling
+Model: You build and operate everything manually (custom stack, no WordPress licenses)
+
+====================================================================
+1) Assumptions
+====================================================================
+1. Stack: Django + DRF + React (or Laravel + Blade if you want faster delivery)
+2. Hosting: Hetzner VPS (CX22 equivalent)
+3. SSL: Let's Encrypt (free)
+4. DNS/CDN: optional Cloudflare free plan only (no paid Cloudflare)
+5. Email: Brevo free tier (or SMTP from hosting if available)
+6. No paid themes, no paid booking plugins, no premium SaaS
+7. You do DevOps, development, deployment, and maintenance manually
+
+====================================================================
+2) Direct Cash Cost (you pay to run the system)
+====================================================================
+A) Mandatory costs
+- VPS: ~200 EGP/month  => ~2,400 EGP/year
+- Domain: ~500 to 1,000 EGP/year
+- SSL: 0 EGP
+
+Mandatory total per year:
+- Minimum: ~2,900 EGP/year
+- Safer range: ~3,400 EGP/year (if domain renewal is higher)
+
+B) Optional but recommended costs
+- Snapshot/backups storage: ~50 to 150 EGP/month
+- Transactional email upgrade (if free tier exceeded): ~0 to 300 EGP/month
+
+Optional annual add-on range:
+- ~600 to 5,400 EGP/year
+
+C) Final yearly running cost scenarios
+- Bare minimum operation: ~2,900 EGP/year
+- Realistic stable operation: ~3,500 to 6,000 EGP/year
+- With extra email + backup headroom: ~6,000 to 9,000 EGP/year
+
+====================================================================
+3) Development Plan (manual execution)
+====================================================================
+Total timeline: 6 to 8 weeks
+
+Week 1: Infrastructure and foundation
+- VPS provisioning
+- Nginx + app runtime + database setup
+- SSL, firewall, backup cron setup
+
+Week 2: Core backend
+- User/doctor/admin roles
+- Appointment model and booking rules
+- Availability and slot logic
+
+Week 3: Frontend pages
+- Home, services, about, contact
+- Booking form and schedule calendar
+- Responsive mobile UI
+
+Week 4: Integrations
+- Email notifications
+- WhatsApp click-to-chat
+- Maps embed + SEO basics
+
+Week 5: Arabic/English and QA
+- i18n for content and forms
+- validation, error handling
+- browser and mobile testing
+
+Week 6: Launch
+- production hardening
+- DNS cutover
+- monitoring and go-live checklist
+
+Week 7-8 (buffer):
+- fixes from real users
+- UX polish and performance tuning
+
+====================================================================
+4) Monthly manual operations checklist
+====================================================================
+1. Apply OS and package updates
+2. Check SSL renewals and web server logs
+3. Verify backups and restore test (at least monthly)
+4. Monitor CPU/RAM/disk and DB growth
+5. Patch framework dependencies
+6. Test booking flow after updates
+
+====================================================================
+5) If you still want to quote the client (custom cheapest offer)
+====================================================================
+Use this only if you are charging as developer for full delivery:
+- Development fee range: 35,000 to 45,000 EGP
+- Suggested quote target: 38,000 EGP
+- Suggested payment split: 50% upfront, 30% staging, 20% launch
+
+Client Year-1 total (custom cheapest path):
+- 38,000 EGP dev fee + 2,900 to 6,000 EGP ops
+- Expected Year-1 total: 40,900 to 44,000 EGP
+
+====================================================================
+Final recommendation
+====================================================================
+If your top priority is lowest possible cash spend and full control, this manual custom path is the cheapest realistic model. Keep at least 3,500 EGP/year reserved for stable operation, even if the theoretical minimum is 2,900 EGP/year.

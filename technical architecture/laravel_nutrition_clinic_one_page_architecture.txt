@@ -1,0 +1,255 @@
+Laravel Nutrition Clinic Website - One-Page Technical Architecture
+Date: May 2026
+
+====================================================================
+1) Project Goal
+====================================================================
+Build a bilingual (Arabic/English) nutrition clinic website with:
+- Public pages
+- Appointment request workflow (not real-time slot booking)
+- Admin handling for request status updates
+- Fast, low-cost deployment and easy long-term maintenance
+
+====================================================================
+2) Recommended Technical Stack
+====================================================================
+Backend and UI:
+- Laravel 11 (or latest LTS-compatible)
+- Blade templates + Tailwind CSS
+- Laravel Localization (AR/EN)
+- PostgreSQL 15+
+
+Core packages (recommended):
+- spatie/laravel-permission (roles and permissions)
+- spatie/laravel-translatable (optional for translatable fields)
+- laravel/breeze (simple auth scaffolding)
+
+Infra:
+- Nginx + PHP-FPM
+- Ubuntu VPS (2 vCPU, 4 GB RAM recommended)
+- Redis (cache, optional queue)
+- Supervisor + queue worker (if async emails/notifications are used)
+- SSL via Let's Encrypt
+
+====================================================================
+3) High-Level Architecture
+====================================================================
+[Browser]
+   |
+   v
+[Nginx] -> [Laravel App: Routes -> Controllers -> Services -> Repositories -> PostgreSQL]
+                           |
+                           +-> [Mail/WhatsApp notification adapters]
+                           +-> [Cache layer (Redis/file cache)]
+
+Architecture style:
+- Modular monolith (single deployable app)
+- Service layer for business logic
+- Repository layer for complex query isolation
+
+====================================================================
+4) Core Functional Modules
+====================================================================
+1. Content Module
+- Home, About Doctor, Services, Contact pages
+- Optional dynamic CMS fields from admin panel
+
+2. Localization Module
+- URL strategy: /ar/* and /en/*
+- Language middleware + switcher component
+- Direction handling (RTL for Arabic, LTR for English)
+
+3. Appointment Requests Module
+- Public appointment form (name, phone, email, preferred date/time, notes)
+- Validation and spam protection (honeypot or recaptcha)
+- Status lifecycle: pending -> confirmed -> rejected
+- Admin notes and follow-up timestamps
+
+4. Admin Operations Module
+- Dashboard counters (new/pending/today)
+- Request list filters (status, date range, language)
+- Manual status changes + notification trigger
+
+5. Notifications Module
+- Email notifications to clinic/admin
+- Optional WhatsApp API trigger or click-to-chat fallback
+
+6. SEO and Marketing Module
+- Meta title/description per page
+- Sitemap and robots setup
+- Analytics tags (GA4 optional)
+
+====================================================================
+5) Suggested Database Design (PostgreSQL)
+====================================================================
+users
+- id, name, email, password, role, created_at, updated_at
+
+appointment_requests
+- id
+- full_name
+- phone
+- email
+- preferred_datetime
+- language (ar/en)
+- status (pending/confirmed/rejected)
+- notes
+- admin_notes
+- source (web/whatsapp/manual)
+- created_at, updated_at
+
+services
+- id
+- slug
+- title_ar, title_en
+- description_ar, description_en
+- is_active
+- created_at, updated_at
+
+pages (optional if dynamic content is needed)
+- id
+- key (home/about/contact)
+- title_ar, title_en
+- body_ar, body_en
+- seo_title_ar, seo_title_en
+- seo_description_ar, seo_description_en
+- created_at, updated_at
+
+Indexes:
+- appointment_requests(status)
+- appointment_requests(preferred_datetime)
+- appointment_requests(created_at)
+- services(slug) unique
+
+====================================================================
+6) Laravel Folder and Module Structure
+====================================================================
+app/
+  Http/
+    Controllers/
+      Web/
+        HomeController.php
+        ServicesController.php
+        AppointmentController.php
+        ContactController.php
+      Admin/
+        DashboardController.php
+        AppointmentManagementController.php
+    Middleware/
+      SetLocale.php
+  Services/
+    Appointment/
+      CreateAppointmentRequestService.php
+      UpdateAppointmentStatusService.php
+    Notification/
+      AppointmentNotificationService.php
+  Repositories/
+    AppointmentRequestRepository.php
+    ServiceRepository.php
+  Models/
+    User.php
+    AppointmentRequest.php
+    Service.php
+    Page.php
+  Notifications/
+    NewAppointmentRequestNotification.php
+
+resources/
+  views/
+    layouts/
+      app.blade.php
+      admin.blade.php
+    components/
+      language-switcher.blade.php
+      appointment-form.blade.php
+    web/
+      home.blade.php
+      about.blade.php
+      services.blade.php
+      contact.blade.php
+      appointment.blade.php
+    admin/
+      dashboard.blade.php
+      appointments/
+        index.blade.php
+        show.blade.php
+  lang/
+    ar/
+      messages.php
+      validation.php
+    en/
+      messages.php
+      validation.php
+
+routes/
+  web.php
+  admin.php
+
+database/
+  migrations/
+  seeders/
+
+tests/
+  Feature/
+    AppointmentRequestTest.php
+    LocalizationSwitchTest.php
+    AdminAppointmentStatusTest.php
+
+====================================================================
+7) Routing Strategy
+====================================================================
+Public routes:
+- /{locale}/
+- /{locale}/about
+- /{locale}/services
+- /{locale}/appointment
+- /{locale}/contact
+
+Admin routes:
+- /admin/login
+- /admin/dashboard
+- /admin/appointments
+- /admin/appointments/{id}
+- /admin/appointments/{id}/status
+
+====================================================================
+8) Performance and Security Baseline
+====================================================================
+Performance:
+- Cache full-page public pages where possible
+- Cache repeated queries (services list, shared content)
+- Optimize and lazy-load images
+- Add DB indexes listed above
+
+Security:
+- CSRF, validation, rate limiting on appointment form
+- Strong password policy for admin users
+- Daily automated DB backup
+- Restrict admin routes by role/permission
+- Security headers (CSP basic profile, X-Frame-Options, etc.)
+
+====================================================================
+9) Delivery Plan (Implementation Order)
+====================================================================
+Week 1:
+- Project bootstrap, auth, localization, DB migrations
+
+Week 2:
+- Public pages + appointment request flow
+
+Week 3:
+- Admin dashboard + request management + notifications
+
+Week 4:
+- SEO setup, testing, optimization, production deployment
+
+====================================================================
+10) Practical Recommendation
+====================================================================
+For this clinic project, Laravel Blade + PostgreSQL is a strong choice because:
+- Fast to build and iterate
+- Clear backend-to-UI loop for CRUD and admin workflows
+- Simple bilingual implementation
+- Lower operational complexity than SPA-heavy architecture
+
+This architecture is intentionally designed to launch quickly now and still allow future add-ons (real-time calendar, payments, blog, analytics).
